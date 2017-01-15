@@ -6,8 +6,14 @@ npm-debug.log
 Thumbs.db
 .DS_Store
 
+# IDE Shit
+.idea
+
 # Ignored files/folders
 *.ts
+gulpfile.js
+example
+
 
 # Included patterns
 !*.d.ts
