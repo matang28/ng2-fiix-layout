@@ -3,7 +3,7 @@ An Angular2 Layout Components by Fiix Applications
 
 ## Prolong and Motivation
 I'll start with a DISCLAIMER: I'm not a web developer and I don't pretend to be one.  
-Once upon a time our company needed a new (big and complex) web app to manage our administrative operations.  
+Once upon a time our company ask me to build a new (big and complex) web app to manage our administrative operations.  
 I thought to myself here is an opportunity to learn something new...  
 I had a good experience with Angular 1 (from another project) and I loved what Microsoft did with TypeScript (used it a lot with Node.js development).  
 So why not using Angular2? and honestly I've loved it (after few hours spent on understanding the whole "quick start" installation of Angular).  
