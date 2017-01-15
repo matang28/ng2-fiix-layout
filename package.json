@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/matang28/ng2-fiix-layout/issues"
   },
-  "homepage": "https://github.com/matang28/ng2-fiix-layout#readme"
+  "homepage": "https://github.com/matang28/ng2-fiix-layout#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.21"
+  }
 }
