@@ -1,6 +1,6 @@
 {
   "name": "ng2-fiix-layout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Angular2 Layout Components by Fiix Applications",
   "main": "index.js",
   "scripts": {
