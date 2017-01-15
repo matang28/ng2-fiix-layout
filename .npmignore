@@ -6,7 +6,9 @@ npm-debug.log
 Thumbs.db
 .DS_Store
 
-# Ignored files
+# Ignored files/folders
 *.ts
+
+# Included patterns
 !*.d.ts
 !dist/
