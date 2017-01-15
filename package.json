@@ -27,6 +27,9 @@
   },
   "homepage": "https://github.com/matang28/ng2-fiix-layout#readme",
   "dependencies": {
-    "angular2": "^2.0.0-beta.21"
+    "angular2": "^2.0.0-beta.21",
+    "@angular/common": "^2.0.0",
+    "@angular/compiler": "^2.0.0",
+    "@angular/core": "^2.0.0"
   }
 }
