@@ -1,5 +1,6 @@
 import {LayoutParams} from "./layout-params.interface";
-import {Input} from "angular2/src/core/metadata";
+import {Input} from "@angular/core";
+
 
 /**
  * An abstract class to implement layout properties defaults and angular binding.

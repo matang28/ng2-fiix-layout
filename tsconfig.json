@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "ES5",
+    "moduleResolution": "node",
+    "lib": ["es6", "dom"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "dist"
+  },
+  "files": [
+    "ng2-fiix-layout.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
