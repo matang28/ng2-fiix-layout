@@ -16,21 +16,21 @@ So feel free to contact me for new features, suggestions and try to fork it.
 
 ## Installation
 Well installation is pretty easy, use npm to install the module:
-```{r, engine='bash', count_lines}
+```bash
 npm install ng2-fiix-layout --save
 ```
 
 and import the FiixLayoutModule to your app root module:   
 (don't forget to include CUSTOM_ELEMENTS_SCHEMA if you want to use my directives)
-```{r, engine='typescript', count_lines}
+```typescript
+import {FiixLayoutModule} from "ng2-fiix-layout";
+
 @NgModule({
   declarations: [
-    AppComponent  
+    AppComponent
   ],
   imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule,   
+    ...  
     FiixLayoutModule.forRoot() <-
   ],
   providers: [
