@@ -10,7 +10,7 @@ So why not using Angular2? and honestly I've loved it (after spending few hours 
 As a Google fan I've used Angular Material for my last project, but since Angular Material2 is still WIP, I tried to use flexbox, bootstrap, frow and many more 3rd party libs  
 that provide layout directives/css classes. And you know what? I've hated it! WTF do I care about main/cross axis, row/columns having to memorize css classes based on the orientation of
 those fu**in divs.  
-So I've decided to create my own layout components based on Android layouts (I know that are not perfect but there are still better then CSS).  
+So I've decided to create my own layout components based on concepts from Android layouts widgets (I know that are not perfect but there are still better then CSS).  
 This is why I've created this repository and shared it with the rest of the world, In order to use the great Angular2 community to create (finally!) an easy to use layout components.  
 So feel free to contact me for new features, suggestions and try to fork it.  
 
