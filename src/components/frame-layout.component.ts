@@ -125,7 +125,7 @@ import {BaseLayout} from "../commons/base-layout-params.class";
   </div>
 </div>
   `,
-    styleUrls: ['../abs-layout.css'],
+    styleUrls: ['../styles/abs-layout.css'],
     encapsulation: ViewEncapsulation.Emulated
 })
 export class FrameLayoutComponent extends BaseLayout {}

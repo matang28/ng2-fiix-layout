@@ -82,7 +82,7 @@ const VERTICAL_LAYOUT = "vertical";
   <ng-content></ng-content>
 </div>
   `,
-    styleUrls: ['../flex-layout.css'],
+    styleUrls: ['../styles/flex-layout.css'],
     encapsulation: ViewEncapsulation.Emulated
 })
 export class LinearLayoutComponent extends BaseLayout{
