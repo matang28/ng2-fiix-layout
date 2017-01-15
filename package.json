@@ -4,7 +4,8 @@
   "description": "An Angular2 Layout Components by Fiix Applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "gulp"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
     "components"
   ],
   "typings": "./dist/ng2-fiix-layout.d.ts",
-  "module" : "./dist/ng2-fiix-layout.js",
+  "module": "./dist/ng2-fiix-layout.js",
   "author": "Matan Golan <matang28@gmail.com> (https://github.com/matang28)",
   "license": "Apache-2.0",
   "bugs": {
@@ -39,7 +40,10 @@
     "zone.js": ">=0.6.26"
   },
   "devDependencies": {
-    "typescript": "^2.0.0",
-    "@types/node": "^6.0.42"
+    "@types/node": "^6.0.42",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-run": "^1.7.1",
+    "typescript": "^2.0.0"
   }
 }
