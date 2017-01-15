@@ -89,15 +89,15 @@ The following code is used to create the layout shown above^.
 ### Modifiers
 #### Anchors
 Use Angular2 content transclusion to layout items in specific anchors. The anchors are:  
- *  <top-left></top-left>
- *  <top-center></top-center>
- *  <top-right></top-right>
- *  <center-left></center-left>
- *  <center-center></center-center>
- *  <center-right></center-right>
- *  <bottom-left></bottom-left>
- *  <bottom-center></bottom-center>
- *  <bottom-right></bottom-right>
+ *  `<top-left></top-left>`
+ *  `<top-center></top-center>`
+ *  `<top-right></top-right>`
+ *  `<center-left></center-left>`
+ *  `<center-center></center-center>`
+ *  `<center-right></center-right>`
+ *  `<bottom-left></bottom-left>`
+ *  `<bottom-center></bottom-center>`
+ *  `<bottom-right></bottom-right>`
 
 #### Inputs
 Use Angular2 property binding to change the layout params of this container:
