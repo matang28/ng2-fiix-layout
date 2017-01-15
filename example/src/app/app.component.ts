@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  array: number[] = [];
+
+  constructor() {
+    for(let i=0;i<100;i++){
+      this.array.push(i);
+    }
+  }
 }

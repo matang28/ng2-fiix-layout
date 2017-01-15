@@ -22,8 +22,8 @@
     "frame-layout",
     "components"
   ],
-  "typings": "./dist/ng2-fiix-layout.d.ts",
-  "module": "./dist/ng2-fiix-layout.js",
+  "typings": "./ng2-fiix-layout.d.ts",
+  "module": "./ng2-fiix-layout.js",
   "author": "Matan Golan <matang28@gmail.com> (https://github.com/matang28)",
   "license": "Apache-2.0",
   "bugs": {
