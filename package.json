@@ -1,6 +1,6 @@
 {
   "name": "ng2-fiix-layout",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An Angular2 Layout Components by Fiix Applications",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
     "frame-layout",
     "components"
   ],
-  "typings": "./ng2-fiix-layout.d.ts",
-  "module": "./ng2-fiix-layout.js",
+  "typings": "./dist/ng2-fiix-layout.d.ts",
+  "module": "./dist/ng2-fiix-layout.js",
   "author": "Matan Golan <matang28@gmail.com> (https://github.com/matang28)",
   "license": "Apache-2.0",
   "bugs": {
