@@ -125,7 +125,107 @@ import {BaseLayout} from "../commons/base-layout-params.class";
   </div>
 </div>
   `,
-    styleUrls: ['../styles/abs-layout.css'],
+    styles: [`
+.fx-block-container{
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.fx-block-canvas{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.fx-block-canvas img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.fx-block-top-left{
+  position: absolute;
+  bottom: auto;
+  top:0;
+  left: 0;
+  right: auto;
+}
+
+.fx-block-top-center{
+  position: absolute;
+  left: 50%;
+  bottom: auto;
+  top:0;
+  right: auto;
+  transform: translate(-50%,0);
+}
+
+.fx-block-top-right{
+  position: absolute;
+  bottom: auto;
+  top:0;
+  left: auto;
+  right: 0;
+}
+
+.fx-block-bottom-left{
+  position: absolute;
+  bottom: 0;
+  top: auto;
+  left: 0;
+  right: auto;
+}
+
+.fx-block-bottom-center{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  top:auto;
+  right: auto;
+  transform: translate(-50%,0);
+}
+
+.fx-block-bottom-right{
+  position: absolute;
+  bottom: 0;
+  top:auto;
+  left: auto;
+  right: 0;
+}
+
+.fx-block-center-left{
+  position: absolute;
+  left: 0;
+  right: auto;
+  top: 50%;
+  bottom: auto;
+  transform: translate(0,-50%);
+}
+
+.fx-block-center-right{
+  position: absolute;
+  left: auto;
+  right: 0;
+  top: 50%;
+  bottom: auto;
+  transform: translate(0,-50%);
+}
+
+.fx-block-center-center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  transform: translate(-50%,-50%);
+}
+`],
     encapsulation: ViewEncapsulation.Emulated
 })
 export class FrameLayoutComponent extends BaseLayout {}

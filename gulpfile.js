@@ -8,6 +8,7 @@ var clean = require('gulp-clean');
  */
 gulp.task("clean", function (cb) {
     gulp.src('dist/*', {read: false}).pipe(clean(cb));
+    gulp.src('compiled/*', {read: false}).pipe(clean(cb));
     cb();
 });
 

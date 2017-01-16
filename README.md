@@ -1,7 +1,13 @@
 # ng2-fiix-layout
 An Angular2 Layout Components by Fiix Applications
 
-## Prolong and Motivation
+## Updates
+The library is finally ready for installation, please make sure that you are using version >=1.0.7  
+Tested with AngularCLI and Webpack starter kit.
+
+Make sure you [check out the example project](https://github.com/matang28/ng2-fiix-layout-example) for usage samples.
+
+## Prologue and Motivation
 I'll start with a DISCLAIMER: I'm not a web developer and I don't pretend to be one.  
 Once upon a time our company ask me to build a new (big and complex) web app to manage our administrative operations.  
 I thought to myself here is an opportunity to learn something new...  
