@@ -1,5 +1,4 @@
 import {NgModule, CUSTOM_ELEMENTS_SCHEMA, ModuleWithProviders} from "@angular/core";
-import {CommonModule} from "@angular/common";
 import {LinearLayoutComponent} from "./components/linear-layout.component";
 import {FrameLayoutComponent} from "./components/frame-layout.component";
 import {WidthDirective} from "./directives/width.directive";
@@ -35,17 +34,20 @@ const EXPORTED_DIRECTIVES = [
 
 @NgModule({
     imports: [
-        CommonModule
     ],
     declarations: [
-        ...INTERNAL_DIRECTIVES,
-        ...EXPORTED_DIRECTIVES,
-        ...INTERNAL_COMPONENTS,
-        ...EXPORTED_COMPONENTS
+        FlexItemDirective,
+        HeightDirective,
+        WidthDirective,
+        LinearLayoutComponent,
+        FrameLayoutComponent
     ],
     exports: [
-        ...EXPORTED_DIRECTIVES,
-        ...EXPORTED_COMPONENTS
+        FlexItemDirective,
+        HeightDirective,
+        WidthDirective,
+        LinearLayoutComponent,
+        FrameLayoutComponent
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

@@ -15,7 +15,7 @@ gulp.task("clean", function (cb) {
  * A transpile task - use typescript transpiler to convert the typescript files to javascript. (using the tsconfig file).
  */
 gulp.task("transpile",['clean'], function (cb) {
-    run('tsc').exec(cb);
+    run('ngc').exec(cb);
 });
 
 /**

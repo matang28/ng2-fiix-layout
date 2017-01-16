@@ -18,3 +18,5 @@ example
 # Included patterns
 !*.d.ts
 !dist/
+
+/compiled
